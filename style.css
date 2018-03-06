@@ -36,6 +36,16 @@ li {
   font-weight: bold;
 }
 
+.nav a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.nav a:hover {
+  opacity: .85;
+  text-decoration: underline;
+}
+
 /*Searching area*/
 .search-form {
   position:absolute;
@@ -108,6 +118,7 @@ li {
   margin-left: 25px;
   color: rgba(0,0,0,0.5);
   padding: 5px 0 5px 5px;
+  font-size: 14px;
 }
 
 .footer2 {
@@ -118,7 +129,6 @@ li {
   display: inline;
   padding-right: 25px;
   margin-left: 25px;
-  color: rgba(0,0,0,0.5);
 }
 
 .r_footer {
@@ -126,4 +136,14 @@ li {
 }
 .l_footer {
   float: left;
+}
+
+.footer a {
+  text-decoration: none;
+  color: rgba(0,0,0,0.5);
+}
+
+.footer a:hover {
+  opacity: .85;
+  text-decoration: underline;
 }
