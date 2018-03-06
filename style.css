@@ -1,0 +1,138 @@
+
+body {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 5px 0 5px 0;
+  margin-left: 10px;
+  display: block;
+}
+
+li {
+  display: inline;
+  padding: 0 5px;
+}
+
+.nav {
+  margin-left: 10px;
+  line-height: 40px;
+  position: relative;
+  float: right;
+  margin-right: 25px;
+  font-size: 13px;
+}
+
+.sign-in {
+  padding: 7px 10px 7px 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(58, 159, 221);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+/*.nav ul,
+.r_footer ul {
+  float: right;
+}*/
+
+
+
+/*.google-logo {
+   display: inline;
+   margin-left: auto;
+   margin-right: auto;
+}*/
+
+
+/*.search-form {
+  width: 100%;
+  position: absolute;
+  top: 311px;
+}
+*/
+
+.search-form {
+  position:absolute;
+
+  top:50%;
+  left:50%;
+  padding:15px;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  min-width: 180px;
+}
+
+.g-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.s-buttons {
+  text-align: center;
+}
+
+.s-field {
+  width: 500px;
+  height: 40px;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,0.2);
+  border: 0.5px solid rgba(0,0,0,0.1);
+  font-size: 16px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: block;
+  text-align: center;
+}
+
+.button {
+  font-family: sans-serif;
+  font-size: 12px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 10px 15px 10px 15px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgba(83, 74, 74, 0.1);
+  font-weight: bold;
+  color: rgba(0,0,0,0.5);
+}
+
+.button:hover {
+  border: 0.5px solid rgba(0,0,0,0.2);
+  color: rgba(0, 0, 0, 0.8);
+}
+
+
+.footer {
+  /*display: block;*/
+  background-color: rgba(83, 74, 74, 0.1);
+  line-height: 10px;
+  width: 100%;
+  border-top: 0.5px solid rgba(0,0,0,0.1);
+  /*to make the footer stick onto the bottom of the page*/
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+
+.footer ul {
+  display: inline;
+  padding-right: 25px;
+  margin-left: 25px;
+  color: rgba(0,0,0,0.5);
+}
+
+.r_footer {
+  float: right;
+}
+.l_footer {
+  float: left;
+}
