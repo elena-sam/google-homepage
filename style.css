@@ -9,18 +9,17 @@ ul {
   list-style-type: none;
   padding: 5px 0;
   margin-left: 10px;
-  display: block;
 }
 
 li {
-  display: inline;
+  display: inline-block;
   padding: 0 5px;
+  vertical-align: middle;
 }
 
 /*Navigation*/
 .nav {
   margin-left: 10px;
-  line-height: 40px;
   position: relative;
   float: right;
   margin-right: 25px;
@@ -34,6 +33,10 @@ li {
   background-color: rgb(66, 133, 244);
   color: rgb(255, 255, 255);
   font-weight: bold;
+}
+
+.nav img {
+  margin-right: 10px;
 }
 
 .nav a {
@@ -57,15 +60,15 @@ li {
 
 
 .s-field {
-  width: 600px;
-  height: 40px;
-  border-radius: 5px;
+  width: 550px;
+  height: 35px;
+  border-radius: 2px;
   box-shadow: 0 2px 6px 0 rgba(0,0,0,0.2);
   border: 0.5px solid rgba(0,0,0,0.1);
   font-size: 16px;
   margin-top: 25px;
   margin-bottom: 25px;
-  padding: 3px 3px 3px 10px;
+  padding: 3px 3px 3px 15px;
 }
 
 .button {
