@@ -11,12 +11,20 @@ The dropdown menus, form submissions, and hover-highlighting were to be ignored.
 
 
 ## What I learnt (main takeaways)
-	- How to center a div with the use of the transform property.
-	- How to center elements in a div with the position: absolute declaration.
+	- How to center a div.
+	In a previous version, I used the `transform` property.
+	In the newest version, I simplified my code: Instead of using the `transform` and `absolute` properties, I used `margin: 0 auto;` to center the div horizontally, `text-align: center;` to center the elements in the div.
+
 	- How to make a footer stick to the bottom of the page.
-	- How to use the float property.
+
+	- How to use the `float` property.
+
 	- How to use Dev tools to identify, for example, the background color of a button.
+
+	- How to use Dev tools to debug our own code.
+
 	- How to use classes.
+
 	- How to create a basic form.
 
 
